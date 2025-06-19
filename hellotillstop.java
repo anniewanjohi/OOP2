@@ -1,6 +1,6 @@
 import java.util.Scanner; 
 
-public class HelloTillstop{
+public class Hellotillstop{
     Scanner sc = new Scanner(System.in); 
 
     void showHello() {
@@ -16,7 +16,7 @@ public class HelloTillstop{
     }
 
     public static void main(String[] args) {
-        HelloTillstop obj = new HelloTillstop();
+        Hellotillstop obj = new Hellotillstop();
         obj.showHello();
     }
 }
