@@ -1,7 +1,7 @@
-import java.util.Scanner; // Colon (:) should be a semicolon (;)
+import java.util.Scanner; 
 
-public class Hellotillstop {
-    Scanner sc = new Scanner(System.in); // Missing semicolon
+public class HelloTillstop{
+    Scanner sc = new Scanner(System.in); 
 
     void showHello() {
         String choice; // Guard variable
@@ -16,7 +16,7 @@ public class Hellotillstop {
     }
 
     public static void main(String[] args) {
-        Hellotillstop obj = new Hellotillstop();
+        HelloTillstop obj = new HelloTillstop();
         obj.showHello();
     }
 }
